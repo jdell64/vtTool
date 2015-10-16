@@ -1,0 +1,11 @@
+
+
+[virusTotal]
+public_key: longstringhere
+
+[db]
+rescan_age_in_minutes: 5
+
+# Another thought that is more real world - given 10,000 domain names, de-duplicate them, run them against the
+# VirusTotal API, and output a list of domains that have at least 1 detection. This and the below example can be done
+# in python instead of groovy though. Groovy will only be needed for the intel platform integration
